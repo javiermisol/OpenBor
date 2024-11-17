@@ -1,5 +1,5 @@
 # OpenBor
- OpenBOR es el motor de desplazamiento lateral 2D definitivo para beat em' ups, shooters y más. 
+#### OpenBOR es el motor de desplazamiento lateral 2D definitivo para beat em' ups, shooters y más. 
  
 ![OpenBOR_WcFpjBM37r](https://github.com/user-attachments/assets/4c72bd76-77a9-41fd-85c7-1e3a007be1ff)
 
