@@ -1,0 +1,77 @@
+[DEBREATE-0.8-dev9]
+<<CTRL>>
+Package: openbor
+Version: 4.0
+Maintainer: dc <dc@caskeys.com>
+Section: games
+Homepage: http://www.chronocrash.com/
+Architecture: amd64
+Priority: optional
+Description: OpenBOR
+ OpenBOR is a royalty free sprite-based side scrolling gaming engine. From humble beginnings in 2004, it has since grown into the most versatile, easy to use, and powerful engine of its type you will find anywhere. OpenBOR is optimized for side scrolling beat em’ up style games (Double Dragon, Streets of Rage, Final Fight), but easily accommodates any sort of gameplay style and feature set you can imagine.
+ .
+ Want to try your hand at game making? Open one of the already existing modules and tinker around – the community is right here to help you along.
+ .
+ Ready to make something of your own? Get some images together and away you go!
+ .
+ Feeling ambitious? Delve into the built-in script engine and graphical suite to build a masterpiece rivaling the most outlandish Triple-A productions. Sell it if you can!
+<</CTRL>>
+<<FILES>>
+1
+/media/jefedesala/Orico-4/Programación/Linux/Apps/OpenBOR/4.0/LINUX/OpenBOR* -> OpenBOR -> /opt/games/OpenBOR
+/media/jefedesala/Orico-4/Programación/Linux/Apps/OpenBOR/4.0/LINUX/Logs/null.txt* -> null.txt -> /opt/games/OpenBOR/Logs/
+/media/jefedesala/Orico-4/Programación/Linux/Apps/OpenBOR/4.0/LINUX/Paks/null.txt* -> null.txt -> /opt/games/OpenBOR/Paks/
+/media/jefedesala/Orico-4/Programación/Linux/Apps/OpenBOR/4.0/LINUX/Saves/null.txt* -> null.txt -> /opt/games/OpenBOR/Saves/
+/media/jefedesala/Orico-4/Programación/Linux/Apps/OpenBOR/4.0/LINUX/ScreenShots/null.txt* -> null.txt -> /opt/games/OpenBOR/ScreenShots/
+/media/jefedesala/Orico-4/Programación/Linux/Apps/OpenBOR/4.0/OpenBOR.png* -> OpenBOR.png -> /usr/share/pixmaps
+<</FILES>>
+<<SCRIPTS>>
+<<PREINST>>
+0
+<</PREINST>>
+<<POSTINST>>
+0
+<</POSTINST>>
+<<PRERM>>
+0
+<</PRERM>>
+<<POSTRM>>
+0
+<</POSTRM>>
+<</SCRIPTS>>
+<<CHANGELOG>>
+<<DEST>>DEFAULT<</DEST>>
+
+<</CHANGELOG>>
+<<COPYRIGHT>>
+Copyright (c) 2003, Roel van Mastbergen & Senile Team
+Copyright (c) 2004, OpenBOR Team
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+Neither the name of the Senile Team, OpenBOR Team nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+<</COPYRIGHT>>
+<<MENU>>
+1
+[FILENAME=]
+Name=OpenBOR
+Version=1.0
+Exec=/opt/games/OpenBOR/OpenBOR
+Comment=Open Beats of Rage
+Icon=/usr/share/pixmaps/OpenBOR.png
+Type=Application
+Terminal=false
+StartupNotify=true
+Encoding=UTF-8
+Comment[es_ES]=Open Beats of Rage
+Icon[es_ES]=/usr/share/pixmaps/OpenBOR.png
+Name[es_ES]=OpenBOR
+Path=/opt/games/OpenBOR/
+<</MENU>>

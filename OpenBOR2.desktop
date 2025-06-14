@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=OpenBOR
+Version=1.0
+Exec=/opt/games/OpenBOR/OpenBOR
+Comment=Open Beats of Rage
+Icon=/usr/share/pixmaps/OpenBOR.png
+Type=Application
+Terminal=false
+StartupNotify=true
+Encoding=UTF-8
+Categories=Game;
+Comment[es_ES]=Open Beats of Rage
+Icon[es_ES]=/usr/share/pixmaps/OpenBOR.png
+Name[es_ES]=OpenBOR
+Path=/opt/games/OpenBOR/

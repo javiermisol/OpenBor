@@ -1,0 +1,31 @@
+E: openbor: control-file-has-bad-permissions 0755 != 0644 [md5sums]
+E: openbor: description-is-pkg-name OpenBOR
+E: openbor: description-starts-with-package-name
+E: openbor: description-too-short OpenBOR
+E: openbor: dir-or-file-in-opt [opt/games/OpenBOR/Logs/]
+E: openbor: dir-or-file-in-opt [opt/games/OpenBOR/Logs/null.txt]
+E: openbor: dir-or-file-in-opt [opt/games/OpenBOR/OpenBOR]
+E: openbor: dir-or-file-in-opt [opt/games/OpenBOR/Paks/]
+E: openbor: dir-or-file-in-opt [opt/games/OpenBOR/Paks/null.txt]
+E: openbor: dir-or-file-in-opt [opt/games/OpenBOR/Saves/]
+E: openbor: dir-or-file-in-opt [opt/games/OpenBOR/Saves/null.txt]
+E: openbor: dir-or-file-in-opt [opt/games/OpenBOR/ScreenShots/]
+E: openbor: dir-or-file-in-opt [opt/games/OpenBOR/ScreenShots/null.txt]
+E: openbor: dir-or-file-in-opt [opt/games/OpenBOR/]
+E: openbor: dir-or-file-in-opt [opt/games/]
+E: openbor: embedded-library libpng [opt/games/OpenBOR/OpenBOR]
+E: openbor: embedded-library zlib [opt/games/OpenBOR/OpenBOR]
+E: openbor: executable-desktop-file 0755 [usr/share/applications/OpenBOR.desktop]
+E: openbor: executable-in-usr-share-doc 0755 [usr/share/doc/openbor/copyright]
+E: openbor: no-changelog usr/share/doc/openbor/changelog.gz (native package)
+W: openbor: executable-not-elf-or-script [opt/games/OpenBOR/Logs/null.txt]
+W: openbor: executable-not-elf-or-script [opt/games/OpenBOR/Paks/null.txt]
+W: openbor: executable-not-elf-or-script [opt/games/OpenBOR/Saves/null.txt]
+W: openbor: executable-not-elf-or-script [opt/games/OpenBOR/ScreenShots/null.txt]
+W: openbor: executable-not-elf-or-script [usr/share/applications/OpenBOR.desktop]
+W: openbor: executable-not-elf-or-script [usr/share/doc/openbor/copyright]
+W: openbor: executable-not-elf-or-script [usr/share/pixmaps/OpenBOR.png]
+W: openbor: extended-description-line-too-long line 1
+W: openbor: extended-description-line-too-long line 3
+W: openbor: extended-description-line-too-long line 7
+W: openbor: undeclared-elf-prerequisites (libSDL2-2.0.so.0 libc.so.6 libm.so.6) [opt/games/OpenBOR/OpenBOR]
